@@ -1,0 +1,240 @@
+/** Base Styles **/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color:#095256;
+	width: 1400px;
+	margin: 0px 100px;
+
+}
+
+/** Grid **/
+
+.full-width {
+	width: 1400px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	margin: 0 auto;
+	float: left;
+	display: inline-block;
+}
+
+.third-width {
+	width: 400px;
+	margin: 0 auto;
+	padding-left: 30px;
+	float: left;
+}
+
+
+/** Header Section**/
+
+header {
+	height: 800px;
+	background-image: url("../img/hero-image.png");
+	background-size: cover;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 60px;
+	color: #A690A4;
+	text-align: center;
+	margin: 0 auto;
+	padding: 320px 280px 10px 244px;
+}
+
+header p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 48px;
+	color: #095256;
+	line-height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 230px 0 230px;
+}
+
+/**** Portfolio Section ***/
+
+
+#portfolio {
+	height:1460px;
+	background-color: #ffffff;
+	display: inline-block;
+	clear: both;
+}
+
+.project-title  {
+	font-family: 'Roboto', san-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #095256;
+	line-height: auto;
+	text-align: left;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.project-type  {
+    font-family: 'Roboto', san-serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: #095256;
+	text-align: left;
+	margin: 0 auto;
+}
+
+
+#portfolio h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 36px;
+	color: #095256;
+	text-align: center;
+	margin: 50px auto 100px auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#portfolio p {
+	font-family: 'Roboto', san-serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: #095256;
+}
+
+.rogue-pickings {
+    height: 350px;
+    width: 550px;
+	margin:0 50px 0 0;
+   	
+}
+
+.jubilee-austen {
+	height: 350px;
+    width: 550px;
+    margin:0 50px 0 0;
+}
+
+.jubilee {
+	clear: both;
+	padding-top: 50px;
+}
+
+.holstee {
+	height: 351px;
+    width: 550px;
+	border: 1px solid gray;
+
+}
+
+.holstee-manifesto {
+	clear: both;
+	padding-top: 50px;
+}
+
+/***About Me Section***/
+
+#about-me {
+	height:640px;
+	margin: auto;
+	padding: auto;
+	background-color: #B1B695;
+}
+
+.sheila-pic {
+	border: 10px solid #5E4B56;	
+	margin-top:40px;
+	margin-left:90px;
+}
+
+#about-me  h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #B1B695;
+	color: #ffffff;
+	text-align: center;
+	margin: 20px auto;
+	padding-top: 40px;
+}
+
+.reg-paragraph {
+	font-family: 'Roboto', san-serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+
+/***Lets Connect Section***/
+
+#lets-connect {
+	height:400px;
+	background: #5e4B56;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+#lets-connect  h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	font-size: 36px;
+	background-color: #5e4B56;
+	color: #ffffff;
+	line-height: auto;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-right: 10px;
+}
+
+#lets-connect h4 {
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.contact-info  {
+	text-align: center;
+	padding-left: 60px;
+}
+
+.interweb-links  {
+	text-align: center;
+	padding-left: 60px;
+}
+
+.address  {
+	text-align: center;
+}
+
+.twitter {
+	padding-right: 25px;
+}
+
+.github {
+	padding-right: 25px;
+}
+
+
+/***Footer***/
+
+footer {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	background-color: #5e4B56;
+	color: #ffffff;
+	height:50px;
+	text-align: center;
+	padding-top: 40px;
+	clear: both;
+}
